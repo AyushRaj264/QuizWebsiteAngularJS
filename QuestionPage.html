@@ -1,0 +1,14 @@
+
+<div id="Quiz-div">
+<h2>Quiz Questions:</h2>
+    <div ng-repeat="question in questions">
+        <h3 id="Question-div">{{ question.question }}</h3>
+        <ul class="no-bullets">
+          <li ng-repeat="option in question.options">
+            <input type="radio" name="answer{{$parent.$index}}" ng-value="option" ng-model="question.selectedOption" >
+            {{ option }}
+          </li>
+        </ul>
+      </div>
+      <button class="btnSubmit" ng-click="SubmitQuiz()">Submit Quiz</button>
+</div>

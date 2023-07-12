@@ -1,0 +1,17 @@
+<h2>Previous Scores:</h2>
+
+<table>
+    <tr>
+        <th>Username</th>
+        <th>Score</th>
+    </tr>
+    <div id="search">
+        <label for="Searchbar">Search</label>
+        <input type="text"  name="Searchbar" ng-model="input" placeholder="Search by name:" />
+    </div>
+    
+    <tr ng-repeat="score in scores | filter:input">
+        <td >{{score.usersname}}</td>
+        <td>{{score.score}}</td>
+    </tr>
+</table>

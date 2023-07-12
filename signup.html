@@ -1,0 +1,12 @@
+<!-- signup.html -->
+<div id="container">
+  <img src="avatar.jpg" class="avatar">
+  <h2>Signup</h2>
+<form ng-submit="signup()">
+  <input class="inputs" type="name" placeholder="Name" ng-model="user.name" required><br>
+  <input class="inputs" type="email" placeholder="Email" ng-model="user.email" required><br>
+  <input class="inputs" type="password" placeholder="Password" ng-model="user.password" required><br>
+  <button class="btn" type="submit">Signup</button>
+</form>
+<a href="#/login">Already have an account? Login</a>
+</div>

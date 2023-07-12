@@ -1,0 +1,29 @@
+<!-- dashboard.html -->
+<form>
+    <div id="container">
+      <img src="./dashQuiz.jpg" class="avatar">
+      <h2>Type of Quiz</h2>
+      <select class="inputs" name="Category" id="" ng-model="selectedCategory">
+        <option value="" disabled selected>Select Category</option>
+        <option value=11>Entertainment</option>
+        <option value=9>General Knowledge</option>
+        <option value=21>Sports</option>
+        <option value=20>Mythology</option>
+      </select>
+      <br>
+      <select class="inputs" name="Difficulty" id="" ng-model="selectedDifficulty">
+        <option value="" disabled selected>Select Difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <br>
+      <select class="inputs" name="Type" id="" ng-model="selectedType">
+        <option value="" disabled selected>Select Type</option>
+        <option value="multiple">Multiple</option>
+        <option value="boolean">True-False</option>
+      </select>
+      <button class="btn" ng-click="startQuiz()">Start Quiz</button>
+    </div>
+  </form>
+  

@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ayush",
+      "email": "ayush@gmail.com",
+      "password": "abc"
+    },
+    {
+      "name": "Prashant",
+      "email": "Prashant@gmail.com",
+      "password": "abc",
+      "id": 3
+    },
+    {
+      "email": "Deepak@gmail.com",
+      "password": "deep",
+      "name": "Deepak",
+      "id": 4
+    },
+    {
+      "email": "Apoorv@gmail.com",
+      "password": "aprv",
+      "name": "Apoorv",
+      "id": 5
+    },
+    {
+      "email": "Rajeev@gmail.com",
+      "password": "abc",
+      "name": "Rajeev",
+      "id": 6
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "usersname": "Ayush",
+      "score": 4
+    },
+    {
+      "id": 2,
+      "usersname": "Deepak",
+      "score": 4
+    },
+    {
+      "usersname": "Prashant",
+      "score": 3,
+      "id": 3
+    },
+    {
+      "usersname": "Rajeev",
+      "score": 4,
+      "id": 4
+    },
+    {
+      "usersname": "Rajeev",
+      "score": 5,
+      "id": 5
+    }
+  ]
+}

@@ -9,12 +9,12 @@ JavaScript
 AngularJS
 
 Functionalities-
-Login and SignUp Functionality using JSON-Server and Routing
-Getting Quiz by
+Login and SignUp Functionality using JSON-Server and Routing.
+Getting Quiz by:
     -Category
     -Difficulty
     -Type
-Showing and storing scores of users along with their usernames
-Search previous scores of users by username or score
+Showing and storing scores of users along with their usernames.
+Search previous scores of users by username or score.
 
 

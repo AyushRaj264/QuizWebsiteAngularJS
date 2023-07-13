@@ -2,6 +2,8 @@
 
 I created a Quiz website by using OpenTriviaDB API. This project aims to provide an engaging and educational experience for users by allowing them to test their knowledge in various categories and difficulty levels.
 
+API Link-("https://opentdb.com/api_config.php")
+
 Technologies used-
 .HTML
 .CSS

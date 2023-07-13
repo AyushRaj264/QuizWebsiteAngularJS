@@ -2,8 +2,6 @@
 
 I created a Quiz website by using OpenTriviaDB API. This project aims to provide an engaging and educational experience for users by allowing them to test their knowledge in various categories and difficulty levels.
 
-API Link-("https://opentdb.com/api_config.php")
-
 Technologies used-
 .HTML
 .CSS
@@ -12,11 +10,9 @@ Technologies used-
 
 Functionalities-
 .Login and SignUp Functionality using JSON-Server and Routing.
-.Filtering respone Getting Quiz by:
+.Getting Quiz by:
     -Category
     -Difficulty
     -Type
-Extra Functionalities-
-.Showing and storing previousscores of users along with their usernames.
+.Showing and storing scores of users along with their usernames, like if Ayush is logged in his score will be stored along with username of Ayush.
 .Search previous scores of users by username or score.
-.Implemented Logout functionality
